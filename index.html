@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@600;700&family=Montserrat&family=Oswald:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Modal window</title>
+  </head>
+  <body>
+    <!-- section for buttons -->
+    <section class="buttons">
+      <button class="show-modal">About Me</button>
+      <button class="show-modal">Conatct me</button>
+      <button class="show-modal">Play a game!</button>
+      <!-- Modal hidden class -->
+    </section>
+    <section class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>About me</h1>
+      <hr>
+      <br>
+      <p>
+        I am a passionate and motivated software engineering fresher with 
+        a solid foundation in data structures and algorithms. My particular 
+        interest lies in web development, where I am eager to contribute my 
+        skills and creativity. I thrive on teamwork and welcome challenging 
+        assignments that push me to excel and grow.
+      </p>
+    </section>
+    <!-- Modal overlay class -->
+    <div class="overlay hidden"></div>
+    <!-- Photo -->
+    <img src="assets/user.jpg" alt="" width="300px">
+
+    <script src="script.js"></script>
+  </body>
+</html>
